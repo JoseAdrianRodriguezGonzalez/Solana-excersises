@@ -1,0 +1,15 @@
+[package]
+name = "counter-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anchor-lang = "1.1.2"
+
+solana-client = "3.1.0"
+solana-keypair = "3.1.2"
+solana-signer = "3.0.1"
+solana-message = "3.1.0"
+solana-transaction = "3.1.0"
+
+counter_pda = { path = ".." }
